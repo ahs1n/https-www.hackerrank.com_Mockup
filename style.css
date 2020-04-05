@@ -9,23 +9,52 @@ header
     height: 50px;
     width: 99.8%;
     background-color: #1162a7;
+    display: flex;
+    align-items: center;
 }
 header a
 {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 20px;
+    font-weight: 600;
     color: #ffffff;
     text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #button_round
 {
     border-radius: 1.636em;
     border: none;
+    height: 25;
+    width: 111px;
+}
+#button_transparent
+{
+    background-color: transparent;
+    height: 25px;
+    width: 112px;
+    color: #ffffff;
+    border: 1px white solid;
+    font-size: 12px;
+}
+#button_transparent:hover
+{
+    background-color: #ffffff;
+    color: #195093;
 }
 header button
 {
     font-size:11px;
     font-weight: 700;
-    line-height: 22px;
+    line-height: 20px;
     color: #195093;
+}
+.hearder_items
+{
+    /* border: 1px solid black; */
+    width: 754px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
