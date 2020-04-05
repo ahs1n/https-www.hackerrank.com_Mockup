@@ -58,3 +58,12 @@ header button
     justify-content: flex-end;
     align-items: center;
 }
+/* login */
+.login
+{
+    width: 99.8%;
+    height: 90px;
+    background-color: #FDFDFD;
+    border: solid black 1px;
+    min-height: 10em;
+}
