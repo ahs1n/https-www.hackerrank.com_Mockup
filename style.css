@@ -129,8 +129,11 @@ header button
 .main_text
 {
     width: 50%;
+    border: solid black 1px;
 }
 .main_image
 {
     width: 50%;
+    border: solid black 1px;
+
 }
