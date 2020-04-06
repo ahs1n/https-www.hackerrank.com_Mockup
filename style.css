@@ -62,8 +62,63 @@ header button
 .login
 {
     width: 99.8%;
-    height: 90px;
+    height: 60px;
     background-color: #FDFDFD;
     border: solid black 1px;
-    min-height: 10em;
+    /* min-height: 10em; */
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon
+{
+    width: 272px;
+    display: flex;
+    justify-content: flex-end;
+    border: solid black 1px;
+    
+}
+.icon img
+{
+    height: 20px;
+    width: 167px;
+
+}
+.sign_in-up
+{
+    width: 253px;
+    height: 36px;
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+.sign_in-up a
+{
+    font-weight: 400;
+    font-size:14px;
+    line-height: 17px;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #576871;
+}
+.sign_in-up button
+{
+    height: 32px;
+    width: 94px;
+    font-weight: 400;
+    font-size:14px;
+    line-height: 17px;
+    color: #576871;
+    background-color: transparent;
+    border: 1px solid #576871;
+}
+
+/* <!-- Section 2 Main --> */
+.main
+{
+    background-color: #F7FAFA;
 }
