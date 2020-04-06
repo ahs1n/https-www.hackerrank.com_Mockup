@@ -59,12 +59,6 @@ header button
     align-items: center;
 }
 /* login */
-.main
-{
-    background-color: #F7FAFA;
-    height: 687px;
-    width: 99.8%;
-}
 .login
 {
     width: 99.8%;
@@ -126,14 +120,21 @@ header button
 }
 
 /* main */
+.main
+{
+    background-color: #F7FAFA;
+    height: 687px;
+    width: 99.8%;
+    display: flex;
+}
 .main_text
 {
-    width: 50%;
+    width: 53.5%;
     border: solid black 1px;
 }
 .main_image
 {
-    width: 50%;
+    width: 46.5%;
     border: solid black 1px;
 
 }
