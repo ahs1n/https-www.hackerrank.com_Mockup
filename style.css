@@ -77,7 +77,7 @@ header button
     display: flex;
     justify-content: flex-end;
     border: solid black 1px;
-    
+    margin-top: 15px;
 }
 .icon img
 {
@@ -93,6 +93,8 @@ header button
     display: flex;
     align-items: center;
     justify-content: end;
+    margin-top: 15px;
+
     
 }
 .sign_in-up a
@@ -115,10 +117,4 @@ header button
     color: #576871;
     background-color: transparent;
     border: 1px solid #576871;
-}
-
-/* <!-- Section 2 Main --> */
-.main
-{
-    background-color: #F7FAFA;
 }
