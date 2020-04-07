@@ -64,7 +64,7 @@ header button
     width: 99.8%;
     height: 60px;
     background-color: #FDFDFD;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     /* min-height: 10em; */
     display: flex;
     margin-top: 30px;
@@ -77,7 +77,7 @@ header button
     width: 272px;
     display: flex;
     justify-content: flex-end;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     margin-top: 15px;
 }
 .icon img
@@ -90,7 +90,7 @@ header button
 {
     width: 263px;
     height: 36px;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     display: flex;
     align-items: center;
     justify-content: end;
@@ -130,7 +130,7 @@ header button
 .main_text
 {
     width: 53.5%;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     display: flex;
     flex-direction: column;
     padding-left: 100px;
@@ -168,7 +168,7 @@ header button
 .great_companies
 {
     display: flex;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     /* align-items: center; */
     justify-content:center;
     width: 598px;
