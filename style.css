@@ -149,10 +149,15 @@ header button
 }
 .main_text h2
 {
-    font-size: 18px;
+    font-size: 25px;
     height: 22px;
     font-weight: 700;
     color: #39424E;
+    font-family: 'Source Code Pro';
+}
+.main_text button
+{
+    margin-top: 10px;
 }
 .main_image
 {
@@ -163,9 +168,12 @@ header button
 .great_companies
 {
     display: flex;
-    /* border: solid black 1px; */
+    border: solid black 1px;
     /* align-items: center; */
     justify-content:center;
+    width: 598px;
+    height: 300px;
+    justify-content: space-around;
 }
 .great_companies p
 {
@@ -173,12 +181,13 @@ header button
     line-height: 22px;
     font-weight: 400;
     color: gray;
+    margin-block-start: 1.7em;
 }
 .companies
 {
     height: 231px;
-    width: 300px;
-    border: solid black 1px;
+    width: 320px;
+    /* border: solid black 1px; */
 }
 .companies button
 {
@@ -197,7 +206,7 @@ header button
 {
     height: 231px;
     width: 295px;
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }
 .developers button
 {
@@ -209,4 +218,25 @@ header button
     font-size: 18px;
     line-height: 22px;
     font-weight: 700;
+}
+.main_text span
+{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    color: #576871;
+}
+.main_text a
+{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    color: #576871;
+}
+.main_text a:hover
+{
+    text-decoration: underline;
 }
