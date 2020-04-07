@@ -138,3 +138,18 @@ header button
     border: solid black 1px;
 
 }
+.great_companies
+{
+    display: flex;
+    
+}
+.companies
+{
+    height: 231px;
+    width: 310px;
+}
+developers
+{
+    height: 231px;
+    width: 310px;
+}
