@@ -131,6 +131,10 @@ header button
 {
     width: 53.5%;
     border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
 }
 .main_image
 {
@@ -141,15 +145,21 @@ header button
 .great_companies
 {
     display: flex;
-    
+    border: solid black 1px;
+    /* align-items: center; */
+    justify-content:center;
 }
 .companies
 {
     height: 231px;
     width: 310px;
+    border: solid black 1px;
+
 }
 developers
 {
     height: 231px;
     width: 310px;
+    border: solid black 1px;
+
 }
