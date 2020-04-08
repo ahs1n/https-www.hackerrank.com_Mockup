@@ -73,6 +73,7 @@ section {
   justify-content: space-between;
   /* position: absolute; */
   /* position: relative; */
+  /* position: sticky; */
 }
 .icon {
   width: 272px;
@@ -146,7 +147,7 @@ section {
   color: #39424e;
   font-family: "Source Code Pro";
 }
-#main_anker
+.main_text a
 {
     text-decoration: none;
 }
@@ -206,14 +207,16 @@ section {
   line-height: 22px;
   font-weight: 700;
 }
-.main_text span {
+.main_footer {
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
   font-family: "Open Sans";
   color: #576871;
+  display: flex;
+  flex-direction: column;
 }
-.main_text a {
+.main_footer a {
   text-decoration: none;
   font-size: 12px;
   line-height: 18px;
@@ -221,7 +224,7 @@ section {
   font-family: "Open Sans";
   color: #576871;
 }
-.main_text a:hover {
+.main_footer a:hover {
   text-decoration: underline;
 }
 /* header{
@@ -243,6 +246,6 @@ section {
     width: 100%;
     background-color: cadetblue;
     /* position: fixed; */
-    position: absolute;
+    /* position: absolute;
 }
- */
+ */ 
