@@ -146,6 +146,11 @@ section {
   color: #39424e;
   font-family: "Source Code Pro";
 }
+#main_anker
+{
+    text-decoration: none;
+}
+
 .main_text button {
   margin-top: 10px;
 }
